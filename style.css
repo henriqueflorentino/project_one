@@ -1,46 +1,51 @@
-body {
-    background-color: rgb(235, 98, 80);
-    font-size: 10px;
+ /* Defina a imagem de fundo para o topo */
+ .topo-com-fundo {
+  background-image: url("img/fundo8dk.jpg"); /* Insira o caminho da imagem de fundo */
+  background-size: cover; /* Ajusta o tamanho da imagem para cobrir a seção do topo */
+  background-position: center top; /* Centraliza a imagem de fundo na parte superior */
+  height: 300px; /* Altura da seção superior */
+  text-align: center; /* Centraliza o conteúdo na seção */
 }
-  
-p1 {
-    font-family: verdana;
-    font-size: 21px;
-    text-align: center;
-}
-p2 {
-  font-family: verdana;
-  font-size: 20px;
-}
-h2 {
-    text-align: center;
-    
-} 
 
+/* Estilize o conteúdo na seção do topo */
+.topo-com-fundo h1 {
+  color: white; /* Cor do texto na seção do topo */
+  font-size: 24px; /* Tamanho da fonte do título */
+  margin-top: 150px; /* Espaçamento superior para o título */
+}
+
+/* Estilize o restante da página com uma cor sólida */
+body {
+  background-color: rgb(235, 98, 80); /* Cor de fundo para o restante da página */
+  font-size: 20px;
+  margin: 0; /* Remova as margens padrão do corpo */
+}
+
+/* Estilize o menu */
 ul {
-    list-style-type: none;
-    font-size: 20px;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: -webkit-sticky; 
-    position: sticky;
-    top: 0;
-    
+  list-style-type: none;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  box-shadow:0px 5px 0px rgba(0, 0, 0, 0.1); /* Adicione a sombra aqui */
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 li {
-    float: left;
+  float: left;
 }
 
 li a {
-      display: block;
-      color: yellow;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-
+  display: block;
+  color: yellow;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 li a:hover {
@@ -51,20 +56,45 @@ li a:hover {
   background-color: red;
 }
 
-.container {
-  text-align: center; /* Alinhe o texto no centro (isso também centralizará a imagem) */
-  margin-top: 20px
+/* Estilize as imagens */
+.imagem-config1 {
+  margin-left: 390px;
+  margin-right: 195px;
+  height: auto; /* Para manter a proporção da imagem */
+  box-shadow: 0px 0px 0px rgba(251, 255, 0, 0.301);
 }
 
-.container img {
-  display: block; /* Isso torna a imagem um elemento de bloco para alinhar corretamente */
-  margin: 0 auto; /* Centraliza a imagem horizontalmente */
+.imagem-container {
+  display: inline-block; /* Isso permite que as imagens fiquem na mesma linha */
 }
 
-.image1 {
-  margin-top: 20px; /* Espaçamento superior para a primeira imagem */
+.imagem-config2 {
+  max-height: 160px; /* A imagem não será maior do que a altura especificada */
+  width: auto; /* Mantém a proporção original da imagem */
 }
 
-.image2 {
-  margin-top: 10px; /* Espaçamento superior maior para a segunda imagem */
+.imagem-config3 {
+  margin-left: 270px;
+  margin-right: 250px;
+  height: auto; /* Para manter a proporção da imagem */
+}
+
+@font-face {
+  font-family: "navegfont";
+  src: url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap") format("woff2");
+  /* Adicione outros formatos de fonte, se necessário */
+}
+
+ul li a {
+  transition: color 0.9s ease; /* Adiciona uma transição suave para a cor do texto */
+}
+
+ul li a:hover {
+  color: rgb(145, 136, 22); /* Cor do texto quando o mouse está sobre o link */
+}
+
+ul li a.active {
+  background-color: red; /* Cor de fundo quando o link está selecionado */
+  color: yellow; /* Cor do texto quando o link está selecionado */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transições suaves para cor de fundo e cor do texto */
 }
