@@ -34,6 +34,7 @@ ul {
   top: 0;
   box-shadow:0px 5px 0px rgba(0, 0, 0, 0.1); /* Adicione a sombra aqui */
   font-family: 'Bebas Neue', sans-serif;
+  z-index: 1000;
 }
 
 li {
@@ -64,9 +65,7 @@ li a:hover {
   box-shadow: 0px 0px 0px rgba(251, 255, 0, 0.301);
 }
 
-.imagem-container {
-  display: inline-block; /* Isso permite que as imagens fiquem na mesma linha */
-}
+
 
 .imagem-config2 {
   max-height: 160px; /* A imagem não será maior do que a altura especificada */
@@ -74,10 +73,23 @@ li a:hover {
 }
 
 .imagem-config3 {
-  margin-left: 270px;
+  margin-left: 320px;
   margin-right: 250px;
   height: auto; /* Para manter a proporção da imagem */
+  max-height: 18px; /* A imagem não será maior do que a altura especificada */
 }
+.imagem-config4 {
+  margin-left: 1480px;
+  height: auto; /* Para manter a proporção da imagem */
+  max-height: 40px; /* A imagem não será maior do que a altura especificada */
+}
+.imagem-config5 {
+  max-height: 40px; /* A imagem não será maior do que a altura especificada */
+  margin-left: 340px;
+  height: auto; /* Para manter a proporção da imagem */
+
+}
+
 
 @font-face {
   font-family: "navegfont";
@@ -97,4 +109,75 @@ ul li a.active {
   background-color: red; /* Cor de fundo quando o link está selecionado */
   color: yellow; /* Cor do texto quando o link está selecionado */
   transition: background-color 0.3s ease, color 0.3s ease; /* Transições suaves para cor de fundo e cor do texto */
+}
+
+body {
+  background-color: rgb(235, 98, 80);
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Use uma fonte mais comum como fallback */
+}
+
+/* Responsividade: Reduza o tamanho da fonte em telas menores */
+@media (max-width: 768px) {
+  .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+  }
+
+  /* Adapte o seu menu responsivo aqui, se necessário */
+  .topnav a {
+      float: none;
+      width: 100%;
+  }
+}/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  margin-top: -430px;
+  float: left;
+  width: 75%;
+}
+/* Add a card effect for articles */
+.card {
+  color: rgb(255, 251, 0); /* Cor do texto na seção do topo */
+  background-color: rgb(212, 17, 17);
+  padding: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  overflow: hidden; /* Adicione esta linha para ajustar o conteúdo interno */
+  
+}
+/* Fake image */
+.fakeimg {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 5px;
+  
+}
+
+.spotify {
+  margin-left: 1480px;
+  margin-right: 0px;
+
+}
+.margin {
+  margin-top: 20px;
+}
+
+.textkong {
+  position: relative; /* Define a posição como relativa */
+  top: -450px; /* Valor negativo para mover o texto para cima */
+  text-align: left;
+  margin-left: 50%; /* Ajuste conforme necessário */
+  max-width: 50%; /* Ajuste conforme necessário */
+  font-size: 1.5em; /* Ajuste o tamanho da fonte conforme necessário */
+  z-index: 999;
 }
