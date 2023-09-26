@@ -94,7 +94,7 @@ li a:hover {
 }
 .imagem-config6 {
   max-height: 70px; /* A imagem não será maior do que a altura especificada */
-  margin-left: 460px;
+  margin-left: 250px;
   height: auto; /* Para manter a proporção da imagem */
   
 
@@ -149,6 +149,7 @@ ul li a.active {
 }
 .column {   
   margin-top: 130px;
+  margin-right: 40px;
   width: 100%;
 }
 /* Add a card effect for articles */
@@ -167,11 +168,12 @@ ul li a.active {
 .card2 {
   color: rgb(255, 251, 0); /* Cor do texto na seção do topo */
   background-color: rgb(212, 17, 17);
-  padding: 50px;
-  margin-left: 60px;
+  padding: 300px;
+  margin-left: 90px;
   margin-right: 60px;
   overflow: hidden; /* Adicione esta linha para ajustar o conteúdo interno */
   max-height: 100%; /* Defina a altura máxima desejada */
+  
   
 }
 /* Fake image */
@@ -201,3 +203,55 @@ ul li a.active {
   z-index: 999;
 }
 
+
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap; /* Impede que as imagens quebrem para a próxima linha */
+}
+
+.slide {
+  width: 100%;
+  display: inline-block;
+  animation: slide 20s linear infinite;
+  white-space: nowrap; /* Impede que as imagens quebrem para a próxima linha */
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  vertical-align: top; /* Alinhar as imagens ao topo para evitar espaço extra na parte inferior */
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-100%);
+  }
+  45% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-200%);
+  }
+  70% {
+    transform: translateX(-200%);
+  }
+  75% {
+    transform: translateX(-300%);
+  }
+  95% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(-400%);
+  }
+  100% {
+    transform: translateX(-400%);
+  }
+}
