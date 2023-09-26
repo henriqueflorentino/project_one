@@ -16,9 +16,12 @@
 
 /* Estilize o restante da página com uma cor sólida */
 body {
-  background-color: rgb(235, 98, 80); /* Cor de fundo para o restante da página */
+  background-image: url(img/fundokw.png);
+  background-repeat: repeat;
   font-size: 20px;
-  margin: 0; /* Remova as margens padrão do corpo */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Use uma fonte mais comum como fallback */
 }
 
 /* Estilize o menu */
@@ -89,6 +92,13 @@ li a:hover {
   height: auto; /* Para manter a proporção da imagem */
 
 }
+.imagem-config6 {
+  max-height: 70px; /* A imagem não será maior do que a altura especificada */
+  margin-left: 460px;
+  height: auto; /* Para manter a proporção da imagem */
+  
+
+}
 
 
 @font-face {
@@ -111,13 +121,7 @@ ul li a.active {
   transition: background-color 0.3s ease, color 0.3s ease; /* Transições suaves para cor de fundo e cor do texto */
 }
 
-body {
-  background-color: rgb(235, 98, 80);
-  font-size: 20px;
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif; /* Use uma fonte mais comum como fallback */
-}
+
 
 /* Responsividade: Reduza o tamanho da fonte em telas menores */
 @media (max-width: 768px) {
@@ -132,8 +136,7 @@ body {
       width: 100%;
   }
 }/* Clear floats after the columns */
-.row::after {
-  content: "";
+.row {
   display: table;
   clear: both;
 }
@@ -143,6 +146,10 @@ body {
   margin-top: -430px;
   float: left;
   width: 75%;
+}
+.column {   
+  margin-top: 130px;
+  width: 100%;
 }
 /* Add a card effect for articles */
 .card {
@@ -154,6 +161,17 @@ body {
   margin-right: 20px;
   overflow: hidden; /* Adicione esta linha para ajustar o conteúdo interno */
   max-height: 700px; /* Defina a altura máxima desejada */
+  
+}
+/* Add a card effect for articles */
+.card2 {
+  color: rgb(255, 251, 0); /* Cor do texto na seção do topo */
+  background-color: rgb(212, 17, 17);
+  padding: 50px;
+  margin-left: 60px;
+  margin-right: 60px;
+  overflow: hidden; /* Adicione esta linha para ajustar o conteúdo interno */
+  max-height: 100%; /* Defina a altura máxima desejada */
   
 }
 /* Fake image */
@@ -182,3 +200,4 @@ body {
   font-size: 1.5em; /* Ajuste o tamanho da fonte conforme necessário */
   z-index: 999;
 }
+
