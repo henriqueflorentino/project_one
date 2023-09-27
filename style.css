@@ -26,8 +26,9 @@ body {
 
 /* Estilize o menu */
 ul {
+  font-family: 'Bebas Neue', sans-serif;
   list-style-type: none;
-  font-size: 20px;
+  font-size: 30px;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -36,10 +37,15 @@ ul {
   position: sticky;
   top: 0;
   box-shadow:0px 5px 0px rgba(0, 0, 0, 0.1); /* Adicione a sombra aqui */
-  font-family: 'Bebas Neue', sans-serif;
   z-index: 1000;
 }
 
+p{
+  
+}
+p2 {
+  font-family: 'Bebas Neue', sans-serif;
+}
 li {
   float: left;
 }
@@ -93,19 +99,16 @@ li a:hover {
 
 }
 .imagem-config6 {
+  margin-top: -220px;
   max-height: 70px; /* A imagem não será maior do que a altura especificada */
-  margin-left: 250px;
+  margin-left: 180px;
   height: auto; /* Para manter a proporção da imagem */
   
 
 }
 
 
-@font-face {
-  font-family: "navegfont";
-  src: url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap") format("woff2");
-  /* Adicione outros formatos de fonte, se necessário */
-}
+
 
 ul li a {
   transition: color 0.9s ease; /* Adiciona uma transição suave para a cor do texto */
@@ -121,21 +124,7 @@ ul li a.active {
   transition: background-color 0.3s ease, color 0.3s ease; /* Transições suaves para cor de fundo e cor do texto */
 }
 
-
-
-/* Responsividade: Reduza o tamanho da fonte em telas menores */
-@media (max-width: 768px) {
-  .leftcolumn, .rightcolumn {   
-      width: 100%;
-      padding: 0;
-  }
-
-  /* Adapte o seu menu responsivo aqui, se necessário */
-  .topnav a {
-      float: none;
-      width: 100%;
-  }
-}/* Clear floats after the columns */
+/* Clear floats after the columns */
 .row {
   display: table;
   clear: both;
@@ -176,13 +165,8 @@ ul li a.active {
   
   
 }
-/* Fake image */
-.fakeimg {
-  background-color: #ffffff;
-  width: 100%;
-  padding: 5px;
-  
-}
+
+
 
 .spotify {
   margin-left: 1480px;
