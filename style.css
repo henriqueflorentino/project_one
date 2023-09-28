@@ -39,12 +39,24 @@ ul {
   box-shadow:0px 5px 0px rgba(0, 0, 0, 0.1); /* Adicione a sombra aqui */
   z-index: 1000;
 }
-
+h5{
+  color: rgb(255, 251, 0); /* Cor do texto na seção do topo */
+  font-family: 'Bebas Neue', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  font-size: 30px;
+}
 p{
+  
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 2px 2px 4px rgba(208, 255, 0, 0.685); 
+  font-size: 26px;
+  color: rgba(255, 255, 255, 0.959); /* Cor do texto na seção do topo */
   
 }
 p2 {
+  color: rgb(255, 251, 0); /* Cor do texto na seção do topo */
   font-family: 'Bebas Neue', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 li {
   float: left;
@@ -143,14 +155,14 @@ ul li a.active {
 }
 /* Add a card effect for articles */
 .card {
-  color: rgb(255, 251, 0); /* Cor do texto na seção do topo */
+  
   background-color: rgb(212, 17, 17);
   padding: 50px;
   margin-top: 80px;
   margin-left: 20px;
   margin-right: 20px;
   overflow: hidden; /* Adicione esta linha para ajustar o conteúdo interno */
-  max-height: 700px; /* Defina a altura máxima desejada */
+  max-height: 900px; /* Defina a altura máxima desejada */
   
 }
 /* Add a card effect for articles */
