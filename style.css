@@ -59,6 +59,11 @@ p2 {
   font-family: 'Bebas Neue', sans-serif;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
+p3 {
+  color: rgb(255, 251, 0); /* Cor do texto na seção do topo */
+  font-family: 'Bebas Neue', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
 li {
   float: left;
 }
@@ -87,8 +92,6 @@ li a:hover {
   box-shadow: 0px 0px 0px rgba(251, 255, 0, 0.301);
 }
 
-
-
 .imagem-config2 {
   max-height: 160px; /* A imagem não será maior do que a altura especificada */
   width: auto; /* Mantém a proporção original da imagem */
@@ -100,25 +103,33 @@ li a:hover {
   height: auto; /* Para manter a proporção da imagem */
   max-height: 18px; /* A imagem não será maior do que a altura especificada */
 }
+
 .imagem-config4 {
   margin-left: 1480px;
   height: auto; /* Para manter a proporção da imagem */
   max-height: 40px; /* A imagem não será maior do que a altura especificada */
 }
+
 .imagem-config5 {
   max-height: 40px; /* A imagem não será maior do que a altura especificada */
   margin-left: 340px;
   height: auto; /* Para manter a proporção da imagem */
-
 }
+
 .imagem-config6 {
-  margin-top: -220px;
-  max-height: 70px; /* A imagem não será maior do que a altura especificada */
-  margin-left: 180px;
+  margin-top: 10px;
+  max-height: 90px; /* A imagem não será maior do que a altura especificada */
+  margin-left: 280px;
   height: auto; /* Para manter a proporção da imagem */
-  
-
 }
+
+.imagem-config7 {
+  margin-top: 10px;
+  max-height: 90px; /* A imagem não será maior do que a altura especificada */
+  margin-left: 300px;
+  height: auto; /* Para manter a proporção da imagem */
+}
+
 
 
 
@@ -173,12 +184,12 @@ ul li a.active {
 .card2 {
   color: rgb(255, 251, 0); /* Cor do texto na seção do topo */
   background-color: rgb(212, 17, 17);
-  padding: 300px;
-  margin-left: 90px;
+  padding: 100px;
+  margin-left: 70px;
   margin-right: 60px;
   overflow: hidden; /* Adicione esta linha para ajustar o conteúdo interno */
   max-height: 100%; /* Defina a altura máxima desejada */
-  
+  border: 8px solid rgb(216, 216, 49); /* 2px é a largura da borda e yellow é a cor */
   
 }
 
@@ -253,4 +264,10 @@ ul li a.active {
   100% {
     transform: translateX(-400%);
   }
+}
+
+.conteudo1{
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap; /* Impede que as imagens quebrem para a próxima linha */
 }
