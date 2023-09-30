@@ -60,7 +60,7 @@ p2 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 p3 {
-  color: rgb(255, 251, 0); /* Cor do texto na seção do topo */
+  color: rgb(252, 251, 201); /* Cor do texto na seção do topo */
   font-family: 'Bebas Neue', sans-serif;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
   font-size: 170%;
@@ -72,6 +72,25 @@ p3 {
   margin-top: 3%;
 
 }
+p4 {
+  color: rgb(252, 251, 201); /* Cor do texto na seção do topo */
+  font-family: 'Bebas Neue', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  font-size: 170%;
+  content: ""; /* Adicionar um conteúdo vazio antes do texto */
+  display: inline-block; /* Tornar o conteúdo vazio um elemento inline-block */
+  width: 95%; /* Definir a largura desejada (ajuste conforme necessário) */
+  text-align: justify;
+  margin-left: -600px;
+  margin-top: -230px;
+
+}
+
+.imagecuriosi {
+  margin-top: -330px;
+  margin-left: 300px;
+}
+
 li {
   float: left;
 }
@@ -160,6 +179,12 @@ li a:hover {
   height: auto; /* Para manter a proporção da imagem */
 }
 
+.imagem-config11 {
+  margin-top: -350px;
+  margin-left: -610px;
+  max-height: 65px; /* A imagem não será maior do que a altura especificada */
+  height: auto; /* Para manter a proporção da imagem */
+}
 
 
 
