@@ -63,6 +63,14 @@ p3 {
   color: rgb(255, 251, 0); /* Cor do texto na seção do topo */
   font-family: 'Bebas Neue', sans-serif;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  font-size: 170%;
+  content: ""; /* Adicionar um conteúdo vazio antes do texto */
+  display: inline-block; /* Tornar o conteúdo vazio um elemento inline-block */
+  width: 95%; /* Definir a largura desejada (ajuste conforme necessário) */
+  text-align: justify;
+  margin-left: 3%;
+  margin-top: 3%;
+
 }
 li {
   float: left;
@@ -130,6 +138,20 @@ li a:hover {
   height: auto; /* Para manter a proporção da imagem */
 }
 
+.imagem-config8 {
+  margin-top: 10%;
+  margin-left: 32%;
+  max-height: 50px; /* A imagem não será maior do que a altura especificada */
+  height: auto; /* Para manter a proporção da imagem */
+}
+
+.imagem-config9 {
+  margin-top: 5%;
+  max-height: 35px; /* A imagem não será maior do que a altura especificada */
+  height: auto; /* Para manter a proporção da imagem */
+}
+
+
 
 
 
@@ -150,6 +172,7 @@ ul li a.active {
 
 /* Clear floats after the columns */
 .row {
+  
   display: table;
   clear: both;
 }
@@ -189,8 +212,8 @@ ul li a.active {
   margin-right: 60px;
   overflow: hidden; /* Adicione esta linha para ajustar o conteúdo interno */
   max-height: 100%; /* Defina a altura máxima desejada */
-  border: 8px solid rgb(216, 216, 49); /* 2px é a largura da borda e yellow é a cor */
-  
+  border: 8px solid rgb(236, 52, 52); /* 2px é a largura da borda e yellow é a cor */
+  overflow: hidden; /* Oculta o conteúdo que excede a altura máxima */
 }
 
 
@@ -224,9 +247,9 @@ ul li a.active {
 }
 
 .slide {
-  width: 100%;
+  width: 99%;
   display: inline-block;
-  animation: slide 20s linear infinite;
+  animation: slide 30s linear infinite;
   white-space: nowrap; /* Impede que as imagens quebrem para a próxima linha */
 }
 
@@ -261,13 +284,23 @@ ul li a.active {
   95% {
     transform: translateX(-300%);
   }
-  100% {
-    transform: translateX(-400%);
-  }
+
 }
 
 .conteudo1{
   width: 100%;
   overflow: hidden;
   white-space: nowrap; /* Impede que as imagens quebrem para a próxima linha */
+}
+
+/* Estilize o rodapé */
+.rodape {
+  background-color: #333; /* Cor de fundo do rodapé */
+  color: rgb(255, 251, 0);  /* Cor do texto do rodapé */
+  text-align: center; /* Centralizar o texto no rodapé */
+  padding: 10px; /* Espaçamento interno do rodapé */
+  left: 0; /* Alinhar o rodapé à esquerda */
+  bottom: 0; /* Alinhar o rodapé na parte inferior */
+  width: 98.92%; /* Largura total do rodapé */
+  font-family: 'Bebas Neue', sans-serif;
 }
