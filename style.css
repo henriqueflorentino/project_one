@@ -113,14 +113,15 @@ li a:hover {
 }
 
 .imagem-config4 {
+  margin-top: 60px;
   margin-left: 1480px;
   height: auto; /* Para manter a proporção da imagem */
   max-height: 40px; /* A imagem não será maior do que a altura especificada */
 }
 
 .imagem-config5 {
-  max-height: 40px; /* A imagem não será maior do que a altura especificada */
-  margin-left: 340px;
+  max-height: 80px; /* A imagem não será maior do que a altura especificada */
+  margin-left: 360px;
   height: auto; /* Para manter a proporção da imagem */
 }
 
@@ -151,6 +152,13 @@ li a:hover {
   height: auto; /* Para manter a proporção da imagem */
 }
 
+.imagem-config10 {
+  margin-top: -600px;
+  margin-left: -310px;
+  margin-right: -390px;
+  max-height: 100px; /* A imagem não será maior do que a altura especificada */
+  height: auto; /* Para manter a proporção da imagem */
+}
 
 
 
@@ -179,7 +187,7 @@ ul li a.active {
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {   
-  margin-top: -430px;
+  margin-top: -500px;
   float: left;
   width: 75%;
 }
@@ -192,7 +200,7 @@ ul li a.active {
 .card {
   background-color: rgb(212, 17, 17);
   padding: 50px;
-  margin-top: 80px;
+  margin-top: 50px;
   margin-left: 20px;
   margin-right: 20px;
   overflow: hidden; /* Adicione esta linha para ajustar o conteúdo interno */
@@ -210,6 +218,19 @@ ul li a.active {
   padding: 100px;
   margin-left: 70px;
   margin-right: 60px;
+  overflow: hidden; /* Adicione esta linha para ajustar o conteúdo interno */
+  max-height: 100%; /* Defina a altura máxima desejada */
+  border: 8px solid rgb(236, 52, 52); /* 2px é a largura da borda e yellow é a cor */
+  overflow: hidden; /* Oculta o conteúdo que excede a altura máxima */
+}
+
+/* Add a card effect for articles */
+.card3 {
+  color: rgb(255, 251, 0); /* Cor do texto na seção do topo */
+  background-color: rgb(212, 17, 17);
+  padding: 700px;
+  margin-left: 15px;
+  margin-right: 10px;
   overflow: hidden; /* Adicione esta linha para ajustar o conteúdo interno */
   max-height: 100%; /* Defina a altura máxima desejada */
   border: 8px solid rgb(236, 52, 52); /* 2px é a largura da borda e yellow é a cor */
