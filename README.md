@@ -56,7 +56,7 @@ Para iniciar vou listar algumas tags utilizadas para o funcionamento do meu site
 
 
 
-## 🚀 Instalando <nome_do_projeto>
+## 🧩 Conhecendo o CSS
 
 Para instalar o <nome_do_projeto>, siga estas etapas:
 
