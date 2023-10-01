@@ -1,30 +1,30 @@
  /* Defina a imagem de fundo para o topo */
  .topo-com-fundo {
-  background-image: url("img/fundo8dk.jpg"); /* Insira o caminho da imagem de fundo */
+  background-image: url("img/fundo8dk.jpg"); /* Caminho da imagem de fundo */
   background-size: cover; /* Ajusta o tamanho da imagem para cobrir a seção do topo */
   background-position: center top; /* Centraliza a imagem de fundo na parte superior */
   height: 300px; /* Altura da seção superior */
   text-align: center; /* Centraliza o conteúdo na seção */
 }
 
-/* Estilize o conteúdo na seção do topo */
+/* Estiliza o conteúdo na seção do topo */
 .topo-com-fundo h1 {
   color: white; /* Cor do texto na seção do topo */
   font-size: 24px; /* Tamanho da fonte do título */
   margin-top: 150px; /* Espaçamento superior para o título */
 }
 
-/* Estilize o restante da página com uma cor sólida */
+/* Estiliza o restante da página com uma imagem */
 body {
   background-image: url(img/fundokw.png);
   background-repeat: repeat;
   font-size: 20px;
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif; /* Use uma fonte mais comum como fallback */
+  font-family: Arial, sans-serif; 
 }
 
-/* Estilize o menu */
+/* Estilize a barra de navegação */
 ul {
   font-family: 'Bebas Neue', sans-serif;
   list-style-type: none;
@@ -37,9 +37,13 @@ ul {
   position: sticky;
   top: 0;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
-  box-shadow:0px 5px 0px rgba(0, 0, 0, 0.1); /* Adicione a sombra aqui */
+  box-shadow:0px 5px 0px rgba(0, 0, 0, 0.1); 
   z-index: 1000;
 }
+
+/* Configurações de titulos e paragrafos */
+
+
 h5{
   color: rgb(255, 251, 0); /* Cor do texto na seção do topo */
   font-family: 'Bebas Neue', sans-serif;
@@ -51,35 +55,35 @@ p{
   font-family: 'Oswald', sans-serif;
   text-shadow: 2px 2px 4px rgba(208, 255, 0, 0.685); 
   font-size: 26px;
-  color: rgba(255, 255, 255, 0.959); /* Cor do texto na seção do topo */
+  color: rgba(255, 255, 255, 0.959); 
   
 }
 p2 {
-  color: rgb(255, 251, 0); /* Cor do texto na seção do topo */
+  color: rgb(255, 251, 0); 
   font-family: 'Bebas Neue', sans-serif;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 p3 {
-  color: rgb(252, 251, 201); /* Cor do texto na seção do topo */
+  color: rgb(252, 251, 201); 
   font-family: 'Bebas Neue', sans-serif;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
   font-size: 170%;
-  content: ""; /* Adicionar um conteúdo vazio antes do texto */
-  display: inline-block; /* Tornar o conteúdo vazio um elemento inline-block */
-  width: 95%; /* Definir a largura desejada (ajuste conforme necessário) */
+  content: ""; /* Adiciona um conteúdo vazio antes do texto */
+  display: inline-block; /* Torna o conteúdo vazio um elemento inline-block */
+  width: 95%; /* Define a largura desejada  */
   text-align: justify;
   margin-left: 3%;
   margin-top: 3%;
 
 }
 p4 {
-  color: rgb(252, 251, 201); /* Cor do texto na seção do topo */
+  color: rgb(252, 251, 201); 
   font-family: 'Bebas Neue', sans-serif;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
   font-size: 210%;
-  content: ""; /* Adicionar um conteúdo vazio antes do texto */
-  display: inline-block; /* Tornar o conteúdo vazio um elemento inline-block */
-  width: 200%; /* Definir a largura desejada (ajuste conforme necessário) */
+  content: ""; 
+  display: inline-block; 
+  width: 200%; 
   text-align: justify;
   margin-left: -600px;
   margin-top: -230px;
@@ -87,13 +91,13 @@ p4 {
 }
 
 p5 {
-  color: rgb(252, 251, 201); /* Cor do texto na seção do topo */
+  color: rgb(252, 251, 201); 
   font-family: 'Bebas Neue', sans-serif;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
   font-size: 210%;
-  content: ""; /* Adicionar um conteúdo vazio antes do texto */
-  display: inline-block; /* Tornar o conteúdo vazio um elemento inline-block */
-  width: 200%; /* Definir a largura desejada (ajuste conforme necessário) */
+  content: ""; 
+  display: inline-block; 
+  width: 200%; 
   text-align: justify;
   margin-left: 10%;
   margin-top: 15%;
@@ -101,13 +105,13 @@ p5 {
 }
 
 p6 {
-  color: rgb(252, 251, 201); /* Cor do texto na seção do topo */
+  color: rgb(252, 251, 201); 
   font-family: 'Bebas Neue', sans-serif;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
   font-size: 210%;
-  content: ""; /* Adicionar um conteúdo vazio antes do texto */
-  display: inline-block; /* Tornar o conteúdo vazio um elemento inline-block */
-  width: 200%; /* Definir a largura desejada (ajuste conforme necessário) */
+  content: ""; 
+  display: inline-block; 
+  width: 200%; 
   text-align: justify;
   margin-left: -600px;
   margin-top: 15%;
@@ -115,25 +119,27 @@ p6 {
 }
 
 p7 {
-  color: rgb(252, 251, 201); /* Cor do texto na seção do topo */
+  color: rgb(252, 251, 201); 
   font-family: 'Bebas Neue', sans-serif;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
   font-size: 210%;
-  content: ""; /* Adicionar um conteúdo vazio antes do texto */
-  display: inline-block; /* Tornar o conteúdo vazio um elemento inline-block */
-  width: 200%; /* Definir a largura desejada (ajuste conforme necessário) */
+  content: ""; 
+  display: inline-block; 
+  width: 200%; 
   text-align: justify;
   margin-left: -220px;
   margin-top: 15%;
 
 }
 
+/* Configurações de imagens da seção: Curiosidades */
+
 .imagecuriosi1 {
   margin-top: -330px;
   margin-left: 500px;
   margin-right: -580px;
   max-height: 500%; /* A imagem não será maior do que a altura especificada */
-  border: 8px solid rgb(255, 230, 0); /* 2px é a largura da borda e yellow é a cor */
+  border: 8px solid rgb(255, 230, 0); 
   width: 120%
 }
 
@@ -141,7 +147,7 @@ p7 {
   margin-top: -460px;
   margin-left: -150%;
   margin-right: -580px;
-  max-height: 500%; /* A imagem não será maior do que a altura especificada */
+  max-height: 500%; 
   width: 120%
 }
 
@@ -149,8 +155,8 @@ p7 {
   margin-top: -330px;
   margin-left: 470px;
   margin-right: -580px;
-  max-height: 500%; /* A imagem não será maior do que a altura especificada */
-  border: 8px solid rgb(255, 230, 0); /* 2px é a largura da borda e yellow é a cor */
+  max-height: 500%; 
+  border: 8px solid rgb(255, 230, 0); 
   width: 130%
 }
 
@@ -158,10 +164,12 @@ p7 {
   margin-top: -55%;
   margin-left: -130%;
   margin-right: -580px;
-  max-height: 500%; /* A imagem não será maior do que a altura especificada */
-  border: 8px solid rgb(255, 230, 0); /* 2px é a largura da borda e yellow é a cor */
+  max-height: 500%; 
+  border: 8px solid rgb(255, 230, 0); 
   width: 120%
 }
+
+/* Configurações de conteudos dentro dos cards*/
 
 li {
   float: left;
@@ -179,11 +187,29 @@ li a:hover {
   background-color: rgba(255, 0, 0, 0.377);
 }
 
+
+/* Configurações da barra de navegação  */
 .active {
   background-color: red;
 }
 
-/* Estilize as imagens */
+ul li a {
+  transition: color 0.9s ease; /* Adiciona uma transição suave para a cor do texto */
+}
+
+ul li a:hover {
+  color: rgb(145, 136, 22); /* Cor do texto quando o mouse está sobre o link */
+}
+
+ul li a.active {
+  background-color: red; /* Cor de fundo quando o link está selecionado */
+  color: yellow; /* Cor do texto quando o link está selecionado */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transições suaves para cor de fundo e cor do texto */
+}
+
+
+/* Configurações de imagens */
+
 .imagem-config1 {
   margin-left: 390px;
   margin-right: 195px;
@@ -284,32 +310,18 @@ li a:hover {
   margin-top: 20%;
   margin-left: -40%;
   margin-right: -570px;
-  border: 8px solid rgb(255, 230, 0); /* 2px é a largura da borda e yellow é a cor */
+  border: 8px solid rgb(255, 230, 0); 
   width: 180%
 }
 
-ul li a {
-  transition: color 0.9s ease; /* Adiciona uma transição suave para a cor do texto */
-}
+/* Configurações dos cards */
 
-ul li a:hover {
-  color: rgb(145, 136, 22); /* Cor do texto quando o mouse está sobre o link */
-}
-
-ul li a.active {
-  background-color: red; /* Cor de fundo quando o link está selecionado */
-  color: yellow; /* Cor do texto quando o link está selecionado */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Transições suaves para cor de fundo e cor do texto */
-}
-
-/* Clear floats after the columns */
 .row {
   
   display: table;
   clear: both;
 }
-/* Create two unequal columns that floats next to each other */
-/* Left column */
+
 .leftcolumn {   
   margin-top: -500px;
   float: left;
@@ -320,67 +332,64 @@ ul li a.active {
   margin-right: 40px;
   width: 100%;
 }
-/* Add a card effect for articles */
+
 .card {
   background-color: rgb(212, 17, 17);
   padding: 50px;
   margin-top: 50px;
   margin-left: 20px;
   margin-right: 20px;
-  overflow: hidden; /* Adicione esta linha para ajustar o conteúdo interno */
-  max-height: 900px; /* Defina a altura máxima desejada */
+  overflow: hidden; /* Linha para ajustar o conteúdo interno */
+  max-height: 900px; /* Altura máxima  */
 
-  /* Adicione uma borda colorida ao redor do card */
-  box-shadow: 10px 10px 10px rgba(53, 59, 24, 0.5); /* offsetX offsetY blurRadius cor */
+  /* Borda colorida ao redor do card */
+  box-shadow: 10px 10px 10px rgba(53, 59, 24, 0.5); 
 }
   
-
-/* Add a card effect for articles */
 .card2 {
   color: rgb(255, 251, 0); /* Cor do texto na seção do topo */
   background-color: rgb(212, 17, 17);
   padding: 100px;
   margin-left: 70px;
   margin-right: 60px;
-  overflow: hidden; /* Adicione esta linha para ajustar o conteúdo interno */
-  max-height: 100%; /* Defina a altura máxima desejada */
-  border: 8px solid rgb(236, 52, 52); /* 2px é a largura da borda e yellow é a cor */
+  overflow: hidden; 
+  max-height: 100%; 
+  border: 8px solid rgb(236, 52, 52); 
   overflow: hidden; /* Oculta o conteúdo que excede a altura máxima */
 }
 
-/* Add a card effect for articles */
+
 .card3 {
-  color: rgb(255, 251, 0); /* Cor do texto na seção do topo */
+  color: rgb(255, 251, 0); 
   background-color: rgb(212, 17, 17);
   padding: 700px;
   margin-left: 15px;
   margin-right: 10px;
-  overflow: hidden; /* Adicione esta linha para ajustar o conteúdo interno */
-  max-height: 100%; /* Defina a altura máxima desejada */
-  border: 8px solid rgb(236, 52, 52); /* 2px é a largura da borda e yellow é a cor */
-  overflow: hidden; /* Oculta o conteúdo que excede a altura máxima */
+  overflow: hidden; 
+  max-height: 100%; 
+  border: 8px solid rgb(236, 52, 52); 
+  overflow: hidden; 
   
 }
 
 
-
+/* Configurações de APIS */
 
 .spotify {
   margin-left: 1480px;
   margin-right: 0px;
-  box-shadow: 10px 10px 10px rgba(53, 59, 24, 0.5); /* offsetX offsetY blurRadius cor */
-  
-
+  box-shadow: 10px 10px 10px rgba(53, 59, 24, 0.5); 
 }
 
 .youtube{
   margin-top: 10%;
   margin-left: -55%;
   margin-right: -570px;
-  border: 8px solid rgb(255, 230, 0); /* 2px é a largura da borda e yellow é a cor */
- 
-
+  border: 8px solid rgb(255, 230, 0); 
 }
+
+/* Configurações texto card1*/
+
 .margin {
   margin-top: 20px;
 }
@@ -389,13 +398,15 @@ ul li a.active {
   position: relative; /* Define a posição como relativa */
   top: -450px; /* Valor negativo para mover o texto para cima */
   text-align: left;
-  margin-left: 50%; /* Ajuste conforme necessário */
-  max-width: 50%; /* Ajuste conforme necessário */
-  font-size: 1.5em; /* Ajuste o tamanho da fonte conforme necessário */
+  margin-left: 50%; 
+  max-width: 50%; 
+  font-size: 1.5em;
   z-index: 999;
   text-align: justify;
 }
 
+
+/* Configurações dos slides/carrosel */
 
 .carousel {
   width: 100%;
@@ -444,13 +455,9 @@ ul li a.active {
 
 }
 
-.conteudo1{
-  width: 100%;
-  overflow: hidden;
-  white-space: nowrap; /* Impede que as imagens quebrem para a próxima linha */
-}
 
-/* Estilize o rodapé */
+
+/* Configurações do Rodapé */
 .rodape {
   background-color: #333; /* Cor de fundo do rodapé */
   color: rgb(255, 251, 0);  /* Cor do texto do rodapé */
@@ -462,11 +469,20 @@ ul li a.active {
   font-family: 'Bebas Neue', sans-serif;
 }
 
+
+/* Configurações EXTRAS */
+
+.conteudo1{
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap; 
+}
+
 .margin-bottom {
-  margin-bottom: 20px; /* Ajuste o valor da margem conforme necessário */
+  margin-bottom: 20px; 
 }
 
 #ultimo-card {
-  margin-bottom: 30px; /* Ajuste a quantidade de espaço conforme necessário */
+  margin-bottom: 30px; 
 }
 
