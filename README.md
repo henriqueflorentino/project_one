@@ -1,17 +1,14 @@
 # <img src="https://fontmeme.com/permalink/230923/abc964d25b44b11c5df60673ed1a310f.png" >
 
+>Seja bem-vindo ao projeto da Kong WIKI, o site consiste em uma fonte definitiva para descobrir o vasto universo do Donkey Kong! Se você é um entusiasta apaixonado dos jogos Donkey Kong ou está apenas começando a explorar a selva da Ilha Kong, você está no lugar certo. Meu projeto tem como missão principal proporcionar informações detalhadas, curiosidades cativantes e uma visão profunda sobre essa amada franquia de jogos.
 
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+### 🌐 Confira o site!
 
-### Ajustes e melhorias
+A base inical e funcional do projeto está pronta! Esse modelo porém não está responsivo, caso aconteça algum problema na visualização do site peço para que ajuste o zoom da pagina para que assim consiga ver o resultado esperado. Por ser meu primeiro projeto espero que entenda, mas agora chega de enrolações, de uma olhada no resultado:
 
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+[Kong WIKI || Tudo sobre um dos jogos mais clássicos de todos os tempos! ](https://kongwiki.netlify.app/)
 
-- [x] Tarefa 1
-- [x] Tarefa 2
-- [x] Tarefa 3
-- [ ] Tarefa 4
-- [ ] Tarefa 5
+<img src="img/teste.gif">
 
 ## 💻 Pré-requisitos
 
