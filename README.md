@@ -58,12 +58,31 @@ Para iniciar vou listar algumas tags utilizadas para o funcionamento do meu site
 
 ## 🧩 Conhecendo o CSS
 
-Para instalar o <nome_do_projeto>, siga estas etapas:
+Agora para a aparência do projeto vou listar alguns seletores e recursos que utilizei: 
 
-Linux e macOS:
-```
-<comando_de_instalação>
-```
+* Em tags tipo **`<p:>`** para parágrafos defini esses seletores:
+
+![image](https://github.com/henriqueflorentino/project_one/assets/94813609/22868582-c7a9-43ff-8e29-442a9d3e8bd4)
+
+Nesse exemplo utilizei o **`color:`** para definir a cor da fonte do meu texto, onde a mesma defini através do **`font-family:`**, para o tamanho utilizei o **`font-size:`** e também coloquei uma sombra nos textos para dar uma profundidade e estilo na vizualização através do **`text-shadow:`**.
+
+Agora para alguns ajustes na exibição do texto no seletor **`.card `**, utilizei o **`content:`** para adicionar um conteúdo vazio antes do texto, **`display: inline-block`** para transformar em um elemento inline-block, **`width`** para a largura e **`margin-left:`** e **`margin-top:`** para ajustes de margens
+
+>Utilizei a tag **`<p:>`** como um exemplo, porém essas mesmas configurações foram aplicadas em todos os textos no meu site, as unicas mudanças que variam são cores, tamanho e tipo da fonte, margens e alinhamento.
+
+
+
+* Agora, no seletor **`.topo-com-fundo `** podemos ver algumas novas funções:
+
+![image](https://github.com/henriqueflorentino/project_one/assets/94813609/5a4becc5-5a0e-4cdc-b1e9-8bb13358e5a5)
+
+Com o **`background-image:`**. **`background-size:`** e **`background-position:`** posso definir o plano de fundo do meu site com uma imagem, ajustando seu posicionamento e mantendo assim uma padrão para a página.
+
+>Na tag **`<body:>`** complementei com o **`background-repeat:`** para a imagem em questão ficar infinita, se repetindo sempre que necessário.
+
+
+
+
 
 Windows:
 ```
