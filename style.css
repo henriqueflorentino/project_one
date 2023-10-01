@@ -76,19 +76,91 @@ p4 {
   color: rgb(252, 251, 201); /* Cor do texto na seção do topo */
   font-family: 'Bebas Neue', sans-serif;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
-  font-size: 170%;
+  font-size: 210%;
   content: ""; /* Adicionar um conteúdo vazio antes do texto */
   display: inline-block; /* Tornar o conteúdo vazio um elemento inline-block */
-  width: 95%; /* Definir a largura desejada (ajuste conforme necessário) */
+  width: 200%; /* Definir a largura desejada (ajuste conforme necessário) */
   text-align: justify;
   margin-left: -600px;
   margin-top: -230px;
 
 }
 
-.imagecuriosi {
+p5 {
+  color: rgb(252, 251, 201); /* Cor do texto na seção do topo */
+  font-family: 'Bebas Neue', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  font-size: 210%;
+  content: ""; /* Adicionar um conteúdo vazio antes do texto */
+  display: inline-block; /* Tornar o conteúdo vazio um elemento inline-block */
+  width: 200%; /* Definir a largura desejada (ajuste conforme necessário) */
+  text-align: justify;
+  margin-left: 10%;
+  margin-top: 15%;
+
+}
+
+p6 {
+  color: rgb(252, 251, 201); /* Cor do texto na seção do topo */
+  font-family: 'Bebas Neue', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  font-size: 210%;
+  content: ""; /* Adicionar um conteúdo vazio antes do texto */
+  display: inline-block; /* Tornar o conteúdo vazio um elemento inline-block */
+  width: 200%; /* Definir a largura desejada (ajuste conforme necessário) */
+  text-align: justify;
+  margin-left: -600px;
+  margin-top: 15%;
+
+}
+
+p7 {
+  color: rgb(252, 251, 201); /* Cor do texto na seção do topo */
+  font-family: 'Bebas Neue', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  font-size: 210%;
+  content: ""; /* Adicionar um conteúdo vazio antes do texto */
+  display: inline-block; /* Tornar o conteúdo vazio um elemento inline-block */
+  width: 200%; /* Definir a largura desejada (ajuste conforme necessário) */
+  text-align: justify;
+  margin-left: -220px;
+  margin-top: 15%;
+
+}
+
+.imagecuriosi1 {
   margin-top: -330px;
-  margin-left: 300px;
+  margin-left: 500px;
+  margin-right: -580px;
+  max-height: 500%; /* A imagem não será maior do que a altura especificada */
+  border: 8px solid rgb(255, 230, 0); /* 2px é a largura da borda e yellow é a cor */
+  width: 120%
+}
+
+.imagecuriosi2 {
+  margin-top: -460px;
+  margin-left: -150%;
+  margin-right: -580px;
+  max-height: 500%; /* A imagem não será maior do que a altura especificada */
+  width: 120%
+}
+
+.imagecuriosi3 {
+  margin-top: -330px;
+  margin-left: 470px;
+  margin-right: -580px;
+  max-height: 500%; /* A imagem não será maior do que a altura especificada */
+  border: 8px solid rgb(255, 230, 0); /* 2px é a largura da borda e yellow é a cor */
+  width: 130%
+}
+
+.imagecuriosi4 {
+  margin-top: -55%;
+  margin-left: -130%;
+  margin-right: -580px;
+  max-height: 500%; /* A imagem não será maior do que a altura especificada */
+  border: 8px solid rgb(255, 230, 0); /* 2px é a largura da borda e yellow é a cor */
+  width: 120%
 }
 
 li {
@@ -186,8 +258,35 @@ li a:hover {
   height: auto; /* Para manter a proporção da imagem */
 }
 
+.imagem-config12 {
+  margin-top: 30%;
+  margin-left: 500px;
+  margin-right: -500px;
+  max-height: 100%; /* A imagem não será maior do que a altura especificada */
+  width: 100%
+}
 
+.imagem-config13 {
+  margin-top: 35%;
+  margin-left: -610px;
+  max-height: 65px; /* A imagem não será maior do que a altura especificada */
+  height: auto; /* Para manter a proporção da imagem */
+}
 
+.imagem-config14 {
+  margin-top: 50%;
+  margin-left: -50px;
+  margin-right: -390px;
+  height: auto; /* Para manter a proporção da imagem */
+}
+
+.imagem-config15 {
+  margin-top: 20%;
+  margin-left: -40%;
+  margin-right: -570px;
+  border: 8px solid rgb(255, 230, 0); /* 2px é a largura da borda e yellow é a cor */
+  width: 180%
+}
 
 ul li a {
   transition: color 0.9s ease; /* Adiciona uma transição suave para a cor do texto */
@@ -260,7 +359,9 @@ ul li a.active {
   max-height: 100%; /* Defina a altura máxima desejada */
   border: 8px solid rgb(236, 52, 52); /* 2px é a largura da borda e yellow é a cor */
   overflow: hidden; /* Oculta o conteúdo que excede a altura máxima */
+  
 }
+
 
 
 
@@ -269,6 +370,15 @@ ul li a.active {
   margin-right: 0px;
   box-shadow: 10px 10px 10px rgba(53, 59, 24, 0.5); /* offsetX offsetY blurRadius cor */
   
+
+}
+
+.youtube{
+  margin-top: 10%;
+  margin-left: -55%;
+  margin-right: -570px;
+  border: 8px solid rgb(255, 230, 0); /* 2px é a largura da borda e yellow é a cor */
+ 
 
 }
 .margin {
@@ -283,6 +393,7 @@ ul li a.active {
   max-width: 50%; /* Ajuste conforme necessário */
   font-size: 1.5em; /* Ajuste o tamanho da fonte conforme necessário */
   z-index: 999;
+  text-align: justify;
 }
 
 
@@ -350,3 +461,12 @@ ul li a.active {
   width: 98.92%; /* Largura total do rodapé */
   font-family: 'Bebas Neue', sans-serif;
 }
+
+.margin-bottom {
+  margin-bottom: 20px; /* Ajuste o valor da margem conforme necessário */
+}
+
+#ultimo-card {
+  margin-bottom: 30px; /* Ajuste a quantidade de espaço conforme necessário */
+}
+
