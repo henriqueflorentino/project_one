@@ -14,81 +14,47 @@ A base inical e funcional do projeto está pronta! Esse modelo porém não está
 
 Para iniciar vou listar algumas tags utilizadas para o funcionamento do meu site:
 
-**`<!DOCTYPE html:>`** Declara o tipo de documento como HTML5.
+* **`<!DOCTYPE html:>`** Declara o tipo de documento como HTML.
 
-**`<html:>`** O elemento raiz que envolve todo o conteúdo HTML.
+* **`<html:>`** O elemento raiz que envolve todo o conteúdo HTML.
 
-**`<head:>`** A seção de cabeçalho que contém metadados, links para estilos, scripts e outros recursos.
+* **`<head:>`** A seção de cabeçalho que contém metadados, links para estilos e outros recursos.
 
-**`<link:>`** Usado para vincular recursos externos ao documento, como folhas de estilo CSS e ícones. Neste caso, você está vinculando uma fonte do Google e uma folha de estilo CSS.
+* **`<link:>`** Usado para vincular recursos externos ao documento, como folhas de estilo CSS e ícones. No meu caso, estou vinculando uma fonte do Google e uma folha de estilo CSS.
 
-**`<"meta charset="UTF-8":>`** Define a codificação de caracteres para UTF-8, que é amplamente usada para suportar caracteres especiais.
+* **`<"meta charset="UTF-8":>`** Define a codificação de caracteres para UTF-8, que é amplamente usada para suportar caracteres especiais.
 
-**`<meta name="viewport" content="width=device-width, initial-scale=1.0">`** Define as configurações de viewport para que a página seja responsiva em dispositivos móveis.
+* **`<title:>`** Define o título da página que é exibido na aba do navegador.
 
-**`<title:>`** Define o título da página que é exibido na aba do navegador.
+* **`<link rel="stylesheet" href="/style.css":>`** Vincula a folha de estilo externa chamada "style.css" ao documento.
 
-**`<link rel="stylesheet" href="/style.css":>`** Vincula uma folha de estilo externa chamada "style.css" ao documento.
+* **`<link rel="shortcut icon" href="img/KW LOGO.png" type="image/x-icon">`** Define o ícone da aba do navegador, também conhecido como favicon.
 
-**`<link rel="shortcut icon" href="img/KW LOGO.png" type="image/x-icon">`** Define o ícone da aba do navegador, também conhecido como favicon.
+* **`<body:>`** A seção principal do documento que contém o conteúdo visível da página.
 
+* **`<div:>`** Um elemento de divisão que usei para agrupar e estilizar blocos de conteúdo.
 
-**`<body:>`** A seção principal do documento que contém o conteúdo visível da página.
+* **`<a:>`** A tag de âncora usada para criar links para outras páginas e recursos externos.
 
+* **`<img:>`** Usado para incorporar imagens na página. O atributo src especifica a URL da imagem e o atributo alt fornece um texto alternativo para acessibilidade.
 
-**`<div:>`** Um elemento de divisão usado para agrupar e estilizar blocos de conteúdo.
+* **`<p:>`** Define um parágrafo de texto.
 
+* **`<h2>:`** Cria um cabeçalho de segundo nível.
 
-a: A tag de âncora usada para criar links para outras páginas ou recursos externos.
-**`<link rel="shortcut icon" href="img/KW LOGO.png" type="image/x-icon">`**
+* **`<ul>:`** Cria uma lista não ordenada.
 
-img: Usado para incorporar imagens na página. O atributo src especifica a URL da imagem e o atributo alt fornece um texto alternativo para acessibilidade.
-**`<link rel="shortcut icon" href="img/KW LOGO.png" type="image/x-icon">`**
+* **`<li>:`** Define um item de lista em uma lista não ordenada.
 
-p: Define um parágrafo de texto.
-**`<link rel="shortcut icon" href="img/KW LOGO.png" type="image/x-icon">`**
+* **`<br>:`** Insere uma quebra de linha.
 
-<h2>: Cria um cabeçalho de segundo nível.
-**`<link rel="shortcut icon" href="img/KW LOGO.png" type="image/x-icon">`**
+* **`<carousel>:`** Um um elemento personalizado que foi usado para criar um carrossel de imagens.
 
+* **`<div class="row"> e <div class="column">:`** Essas classes CSS foram usadas para criar um layout de grade.
 
-<ul>: Cria uma lista não ordenada.
-**`<link rel="shortcut icon" href="img/KW LOGO.png" type="image/x-icon">`**
-
-<li>: Define um item de lista em uma lista não ordenada.
-**`<link rel="shortcut icon" href="img/KW LOGO.png" type="image/x-icon">`**
-
-<br>: Insere uma quebra de linha.
-**`<link rel="shortcut icon" href="img/KW LOGO.png" type="image/x-icon">`**
-
-<table>: Cria uma tabela.
-**`<link rel="shortcut icon" href="img/KW LOGO.png" type="image/x-icon">`**
-
-<tr>: Define uma linha em uma tabela.
-**`<link rel="shortcut icon" href="img/KW LOGO.png" type="image/x-icon">`**
-
-<td>: Define uma célula em uma tabela.
-**`<link rel="shortcut icon" href="img/KW LOGO.png" type="image/x-icon">`**
-
-<carousel>: Parece ser um elemento personalizado que não faz parte do HTML padrão. Pode ser usado para criar um carrossel de imagens, mas sua funcionalidade depende de scripts ou estilos personalizados.
-**`<link rel="shortcut icon" href="img/KW LOGO.png" type="image/x-icon">`**
-
-<div class="row"> e <div class="column">: Essas classes CSS são usadas para criar um layout de grade.
-**`<link rel="shortcut icon" href="img/KW LOGO.png" type="image/x-icon">`**
-
-<p1>, <p3>: Parecem ser classes personalizadas de parágrafo, provavelmente definidas em seu arquivo CSS.
-**`<<p1>, <p3>>`**
-
-**`</html:>`** Fecha o elemento raiz HTML.
+* **`</html:>`** Fecha o elemento raiz HTML.
 
 
-
-
-
-
-* Você instalou a versão mais recente de `</HTTPS>`
-* Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
-* Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
 
 ## 🚀 Instalando <nome_do_projeto>
 
