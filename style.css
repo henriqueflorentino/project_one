@@ -210,6 +210,10 @@ ul li a.active {
 
 /* Configurações de imagens */
 
+.imagem-config0 {
+  max-width: 100%;
+}
+
 .imagem-config1 {
   margin-left: 390px;
   margin-right: 195px;
@@ -228,6 +232,11 @@ ul li a.active {
   height: auto; /* Para manter a proporção da imagem */
   max-height: 18px; /* A imagem não será maior do que a altura especificada */
 }
+
+
+
+
+
 
 .imagem-config4 {
   margin-top: 60px;
