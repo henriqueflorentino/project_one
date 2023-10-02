@@ -52,6 +52,10 @@ Para iniciar vou listar algumas tags utilizadas para o funcionamento do meu site
 
 * **`<div class="row"> e <div class="column">:`** Essas classes CSS foram usadas para criar um layout de grade.
 
+* **`iframe class="spotify"`** Utilizei para incorporar recursos do Spotify em meu site
+
+* **`iframe class="youtube"`** Utilizei para incorporar recursos do YouTube em meu site
+
 * **`</html:>`** Fecha o elemento raiz HTML.
 
 
@@ -103,7 +107,20 @@ Foi definido que quando o mouse passar pelo texto vai ativar uma transição sua
 
 ![image](https://github.com/henriqueflorentino/project_one/assets/94813609/2efa766a-8500-48d3-a72b-fe03c5b898d4)
 
-Essas funções foram usadas para criar um carrossel de slides que exibe as imagens em uma única linha horizontal, permitindo a transição suave entre elas usando animações. Cada slide ocupa quase toda a largura do contêiner do carrossel, e as imagens dentro dos slides são dimensionadas para se ajustarem corretamente.
+Essas funções foram usadas para criar um carrossel de slides que exibe as imagens em uma única linha horizontal, permitindo a transição suave entre elas usando animações. Cada slide ocupa quase toda a largura do contêiner do carrossel, e as imagens dentro dos slides são dimensionadas para se ajustarem corretamente. Seu funcionamento ficou assim:
+
+<img src="img/gifslideredme.gif">
+
+>A velocidade representada aqui não é a mesma no site, acelerei para ficar mais fácil de observar o funcionamento do carrosel de imagens.
+
+
+* No meu site também incorporei recursos do Spotify e YouTube:
+
+![image](https://github.com/henriqueflorentino/project_one/assets/94813609/6fa18623-9e9c-416c-a981-235ac257db4d)
+
+Onde aqui no CSS, deixei definido especificações como o tamanho, margens, bordas e sombreamento.
+Suas representações ficaram assim:
+
 
 
 Windows:
