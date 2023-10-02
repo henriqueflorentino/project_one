@@ -88,8 +88,22 @@ Aqui defini o **`max-height:`** para especificar uma altura limite para a imagem
 
 >Todos os seletores que possuirem um numero na frente como exemplo o **`.imagecuriosi1`**, quer dizer que possui mais de uma versão desse seletor, onde a diferença está apenas em configurações de margem, tamanho máximo e outros relacionados.
 
+* Nos seletores, **`ul li a`**, **`ul li a:hover`** e **`ul li a.active`**:
+
+![image](https://github.com/henriqueflorentino/project_one/assets/94813609/8faf3632-dd7b-44a1-b444-d96616468671)
+
+Foi definido que quando o mouse passar pelo texto vai ativar uma transição suave, mudando a cor do texto, e quando o usuário clica em uma da abas da barra de navegação a aba em questão ficará na cor vermelha, onde seu funcionamento ocorre assim:
+
+<img src="img/gifreadme.gif">
+
+>Através desse projeto consegui perceber que os minímos detalhes, por mais que o usuário "não perceba" quando está utilizando o recurso fazem toda a diferença, pois na falta de certas funcionalidades pode acabar atrapalhando na experiência final do usuário.
+
+* Para o carrosel de imagens no site utilzei esses recursos:
 
 
+![image](https://github.com/henriqueflorentino/project_one/assets/94813609/2efa766a-8500-48d3-a72b-fe03c5b898d4)
+
+Essas funções foram usadas para criar um carrossel de slides que exibe as imagens em uma única linha horizontal, permitindo a transição suave entre elas usando animações. Cada slide ocupa quase toda a largura do contêiner do carrossel, e as imagens dentro dos slides são dimensionadas para se ajustarem corretamente.
 
 
 Windows:
