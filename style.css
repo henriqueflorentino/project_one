@@ -427,7 +427,7 @@ ul li a.active {
   width: 99%;
   display: inline-block;
   animation: slide 30s linear infinite;
-  white-space: nowrap; /* Impede que as imagens quebrem para a próxima linha */
+  white-space: nowrap; /* Impede que as imagens quebrem para a próxima linha. */
 }
 
 .slide img {
