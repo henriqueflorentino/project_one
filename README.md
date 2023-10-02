@@ -80,6 +80,14 @@ Com o **`background-image:`**. **`background-size:`** e **`background-position:`
 
 >Na tag **`<body:>`** complementei com o **`background-repeat:`** para a imagem em questão ficar infinita, se repetindo sempre que necessário.
 
+* No seletor **`.imagecuriosi1`**, utilizei algumas outras funções:
+
+![image](https://github.com/henriqueflorentino/project_one/assets/94813609/d178a37f-49b6-4be4-b524-fd8bb503336c)
+
+Aqui defini o **`max-height:`** para especificar uma altura limite para a imagem e adicionei também uma borda colorida com o **`border:`**
+
+>Todos os seletores que possuirem um numero na frente como exemplo o **`.imagecuriosi1`**, quer dizer que possui mais de uma versão desse seletor, onde a diferença está apenas em configurações de margem, tamanho máximo e outros relacionados.
+
 
 
 
