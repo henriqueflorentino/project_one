@@ -121,72 +121,26 @@ Essas funções foram usadas para criar um carrossel de slides que exibe as imag
 Onde aqui no CSS, deixei definido especificações como o tamanho, margens, bordas e sombreamento.
 Suas representações ficaram assim:
 
+* Spotify:
+  
+![image](https://github.com/henriqueflorentino/project_one/assets/94813609/b34fdf87-fec2-4c13-aa82-c8312e034094) 
+
+* YouTube:
+
+![image](https://github.com/henriqueflorentino/project_one/assets/94813609/adc17d42-817d-4c58-85cb-1976b7130b6d)
 
 
-Windows:
-```
-<comando_de_instalação>
-```
 
-## ☕ Usando <nome_do_projeto>
 
-Para usar <nome_do_projeto>, siga estas etapas:
+## ☕ Observações 
 
-```
-<exemplo_de_uso>
-```
+ >Aqui nas explicações não mencionei alguns seletores pois eles possuem os mesmos recursos que mencionei acima, então ficaria repetitivo. Com esses exemplos que demonstrei é possivel ver todas as funções que utilizei em todos os seletores em meu site, onde reuni apenas os mais interessantes e também aqueles que continham maior numero de recursos dentro de um seletor, para ficar melhor a exemplificação.
 
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
 
-## 📫 Contribuindo para <nome_do_projeto>
 
-Para contribuir com <nome_do_projeto>, siga estas etapas:
+## 🐵 Considerações Finais
 
-1. Bifurque este repositório.
-2. Crie um branch: `git checkout -b <nome_branch>`.
-3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
-5. Crie a solicitação de pull.
+ Se você chegou até aqui e conseguiu aprender um pouco sobre o funcionamento do meu site fico muito grato! Como meu primeiro projeto espero poder melhorar muito ainda meus conhecimentos e assim entregar algo mais elaborado e melhor documentado (desculpe caso encontre algum erro de ortografia ou se utilizei alguma definição errada rs), agradeço aqui também ao meu professor da faculdade que está sempre dando o apoio necessário e caminhos para meu aperfeiçoamento. 
 
-Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+> Que este projeto possa servir de inspiração para outras pessoas que estão iniciando no mundo **`<dev>`**, assim como eu. Quero que todos percebam que somos capazes de realizar projetos, independentemente de quão simples possam parecer, pois eles desempenham um papel significativo em nosso desenvolvimento profissional e criativo. Agradeço a atenção de todos e até a próxima! 🚀
 
-## 🤝 Colaboradores
-
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="#">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
-        <sub>
-          <b>Iuri Silva</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckerberg_podcast.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
-        <sub>
-          <b>Mark Zuckerberg</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
-        <sub>
-          <b>Steve Jobs</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-## 😄 Seja um dos contribuidores
-
-Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
-
-## 📝 Licença
-
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
